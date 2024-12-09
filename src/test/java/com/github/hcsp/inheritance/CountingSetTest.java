@@ -26,5 +26,7 @@ public class CountingSetTest {
         set.addAll(Arrays.asList(1, 2));
         Assertions.assertEquals(2, set.size());
         Assertions.assertEquals(8, set.getCount());
+
+
     }
 }
